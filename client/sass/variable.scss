@@ -1,0 +1,67 @@
+/*icon开始*/
+@font-face {
+  font-family: 'iconfont';  /* project id 264157 */
+  src: url('//at.alicdn.com/t/font_264157_3bvds5j0lpi4quxr.eot');
+  src: url('//at.alicdn.com/t/font_264157_3bvds5j0lpi4quxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_264157_3bvds5j0lpi4quxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_264157_3bvds5j0lpi4quxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_264157_3bvds5j0lpi4quxr.svg#iconfont') format('svg');
+}
+.icon {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'iconfont';
+}
+/*icon结束*/
+
+/*全局主色开始*/
+$globalColor: #E64F5C; // 渐变色初始色
+$minorColor: #FF8972; // 渐变色终结色
+$globalColor75: rgba(255, 50, 50, 0.75); // 初始色 75%
+$globalColor40: rgba(255, 50, 50, 0.40); // 初始色 40%
+$minorColor75: rgba(255, 118, 83, 0.75); // 终结色 75%
+$minorColor40: rgba(255, 118, 83, 0.40); // 终结色 40%
+/*全局主色结束*/
+
+/*其他附加色开始*/
+$orange: #FF9D38;
+$blue: #409FFE;
+$pink: #DA067A;
+$green: #8CB633;
+$purple: #9C3FCF;
+/*其他附加色结束*/
+
+/*字体颜色开始*/
+$fc-1: #0A0A0A;
+$fc-2: #3E3A39;
+$fc-3: #919191;
+$fc-4: #DBDBDB;
+$fc-5: #FFFFFF;
+/*字体颜色结束*/
+
+/*字体大小开始*/
+$fz-0: 70px;
+$fz-1: 60px;
+$fz-2: 48px;
+$fz-3: 40px;
+$fz-4: 36px;
+$fz-5: 32px;
+$fz-6: 24px;
+$fz-7: 18px;
+$fz-8: 14px;
+/*字体大小开始*/
+
+/*播放器样式重写开始*/
+.vjs-big-play-button {
+  line-height: 2em!important;
+  height: 2em!important;
+  width: 2em!important;
+  margin-top: -1em!important;
+  margin-left: -1em!important;
+  border-radius: 50%!important;
+}
+.myPlayer-dimensions {
+  width: 100%!important;
+  height: 100%!important;
+}
+/*播放器样式重写结束*/
